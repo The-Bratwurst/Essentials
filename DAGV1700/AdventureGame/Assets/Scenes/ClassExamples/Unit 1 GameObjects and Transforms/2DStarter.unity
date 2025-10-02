@@ -1094,6 +1094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 680624169}
   - component: {fileID: 680624170}
+  - component: {fileID: 680624171}
   m_Layer: 0
   m_Name: Snail
   m_TagString: Untagged
@@ -1171,6 +1172,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &680624171
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680624168}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e2d883c7b0a11564bb1c16ca0322d91a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &770145846
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,6 +2087,10 @@ PrefabInstance:
     - target: {fileID: 7763208945970458436, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
       propertyPath: m_Center.y
       value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804256374081362829, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8593403036184563498, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
       propertyPath: m_Name
@@ -3620,7 +3647,7 @@ GameObject:
   - component: {fileID: 1871738334}
   - component: {fileID: 1871738333}
   m_Layer: 0
-  m_Name: CharacterArt (1)
+  m_Name: Accessory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4030,6 +4057,7 @@ GameObject:
   - component: {fileID: 1959532804}
   - component: {fileID: 1959532809}
   - component: {fileID: 1959532808}
+  - component: {fileID: 1959532810}
   m_Layer: 13
   m_Name: Strawberry_0
   m_TagString: Untagged
@@ -4201,6 +4229,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: {fileID: 11400000, guid: 64c59e812861147a88d9e55a69834e31, type: 2}
+--- !u!95 &1959532810
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959532803}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 80caab1291bb22f489f14c9d0a1d244c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1975945343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9016590471437704904, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
